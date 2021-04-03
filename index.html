@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do | Home</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./scss/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="first-bg">
+            <header>
+                <div class="title">
+                    <h1>todo</h1>
+                    <div class="theme"></div>
+                </div>
+
+                <div class="add-to-do">
+                    <div class="task input-checkbox">
+                        <input type="checkbox" id="checkbox-add" disabled>
+                        <label for="checkbox-add" class="checkbox-add"></label>
+                        <input type="text" id="text-to-do" placeholder="Create a new todo...">
+                    </div>
+                    <div>
+                        <button class="btn-add" id="btn-add"><img src="./images/icon-cross.svg" alt="Icon Add"
+                                class="add"></button>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+        <div class="second-bg">
+            <div class="to-do">
+                <div class="new-to-do" id="new-to-do"></div>
+
+                <div class="resume-to-do">
+                    <div class="amount-to-do">
+                        <p><b id="amount">0</b> items left</p>
+                    </div>
+                    <div class="change-div">
+
+                    </div>
+                    <div class="clear">
+                        <p id="clear-all">Clear Completed</p>
+                    </div>
+                </div>
+
+                <div class="options-to-do">
+                    <b class="all" id="all">All</b>
+                    <b class="active" id="active">Active</b>
+                    <b class="Completed" id="completed">Completed</b>
+                </div>
+            </div>
+
+
+        </div>
+        <!--MODAL CLEAR ALL-->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span>Are you sure you want to delete all activities?</span>
+                <div class="modal-buttons">
+                    <button class="btn-modal" id="btn-yes">YES</button>
+                    <button class="btn-modal" id="btn-no">NO</button>
+                </div>
+            </div>
+        </div>
+
+        <!--MODAL COMPLETED ACTIVITYS-->
+        <div id="myModal-activitys" class="modal-activitys">
+            <div class="modal-content-activitys">
+                <span>All your completed activitys</span>
+                <div class="container-activitys" id="container-activitys">
+
+                </div>
+                <span class="close-modal">x</span>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>
