@@ -1,0 +1,20 @@
+// MOBILE-FIRST
+$mobile: 450px;
+$ipad: 900px;
+$desktop: 1200px;
+
+@mixin responsive($screen) {
+    @if $screen == mobile {
+        @media screen and (max-width: $mobile) {
+            @content;
+        }
+    } @else if $screen == ipad {
+        @media screen and (min-width: $mobile) and (max-width: $desktop - 1) {
+            @content;
+        }
+    } @else if $screen == desktop {
+        @media screen and (min-width: $ipad) {
+            @content;
+        }
+    }
+}

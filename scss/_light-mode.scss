@@ -1,0 +1,66 @@
+.container-light {
+    background-image: url("../images/bg-mobile-light.jpg");
+    transition: 0.3s;
+}
+
+.add-to-do-light {
+    background-color: $light-gray;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: $light-gray;
+    }
+
+    #text-to-do {
+        background-color: $light-gray !important;
+
+        &::placeholder {
+            background-color: $light-gray !important;
+        }
+    }
+
+    .input-checkbox label {
+        background-color: $light-gray;
+    }
+
+    .btn-add {
+        background-color: $light-gray;
+    }
+}
+
+.theme-light {
+    background-image: url("../images/icon-moon.svg") !important;
+    transition: 0.3s;
+}
+
+.body-light {
+    background-color: $light-gray-blue;
+    transition: 0.3s;
+}
+
+//
+
+.new-to-do-light {
+    background-color: $light-gray;
+    transition: 0.3s;
+
+    .input-checkbox label {
+        background-color: $light-gray;
+    }
+}
+
+.resume-to-do-light {
+    background-color: $light-gray;
+    transition: 0.3s;
+}
+
+.options-to-do-light {
+    background-color: $light-gray;
+    transition: 0.3s;
+}
+
+@include responsive(desktop) {
+    .container-light {
+        background-image: url("../images/bg-desktop-light.jpg");
+    }
+}

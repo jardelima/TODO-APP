@@ -1,0 +1,198 @@
+.to-do {
+    width: 85%;
+    position: absolute;
+    top: 5rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.task {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.checkbox-add {
+    margin-top: 3px;
+}
+
+.input-checkbox {
+    input[type="checkbox"] {
+        visibility: hidden;
+
+        &:checked + label {
+            background: linear-gradient(120deg, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+            border-color: $bg-to-do-hover;
+
+            &::after {
+                opacity: 1;
+            }
+        }
+    }
+
+    label {
+        transition: 0.3s;
+        background-color: $bg-to-do;
+        border: 1px solid $dark-grayish-blue;
+        border-radius: 50%;
+        cursor: pointer;
+        height: 17px;
+        width: 17px;
+        left: -2px;
+        top: 0px;
+        position: absolute;
+
+        &::after {
+            border: 2px solid #fff;
+            border-top: none;
+            border-right: none;
+            content: "";
+            height: 3px;
+            width: 7px;
+            left: 3px;
+            top: 4px;
+            opacity: 0;
+            position: absolute;
+            transform: rotate(-45deg);
+        }
+    }
+
+    input[type="text"] {
+        width: 85%;
+        height: 25px;
+        border: none;
+        margin-left: 10px;
+        padding-left: 5px;
+        color: $dark-grayish-blue;
+        background-color: $bg-to-do;
+        transition: 0.3s;
+
+        &::placeholder {
+            background-color: $bg-to-do;
+            color: $dark-grayish-blue;
+            transition: 0.3s;
+        }
+    }
+}
+
+.add {
+    width: 15px;
+    transform: rotate(45deg);
+}
+
+.btn-add {
+    display: flex;
+    align-items: center;
+    background-color: $bg-to-do;
+
+    padding: 0.3rem;
+
+    border-radius: 5px;
+    border: 1px solid $dark-grayish-blue;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+//
+.new-to-do {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 0.8rem;
+    color: $dark-grayish-blue;
+    background-color: $bg-to-do;
+    transition: 0.3s;
+}
+
+.resume-to-do {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1.2rem;
+    margin-bottom: 1.2rem;
+
+    transition: 0.3s;
+    font-size: 0.8rem;
+    color: $dark-grayish-blue;
+    border-radius: 0 0 5px 5px;
+    background-color: $bg-to-do;
+}
+
+.clear p:hover {
+    cursor: pointer;
+    color: rgb(236, 102, 102);
+}
+
+// class for add with javascript
+.all-to-do {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1.2rem 0;
+
+    .task-to-do {
+        position: relative;
+
+        span {
+            margin-left: 10px;
+        }
+    }
+
+    #remove-task {
+        cursor: pointer;
+    }
+}
+
+//
+.options-to-do {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1.2rem 0;
+    margin-top: 1.5rem;
+
+    transition: 0.3s;
+    border-radius: 5px;
+    color: $dark-grayish-blue;
+    background-color: $bg-to-do;
+
+    b + b {
+        margin-left: 1.5rem;
+    }
+
+    b:hover {
+        color: $bright-blue;
+        cursor: pointer;
+    }
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+@include responsive(desktop) {
+    .to-do {
+        max-width: 600px;
+    }
+
+    .resume-to-do {
+        justify-content: space-around;
+    }
+
+    .options-to-do {
+        margin-top: 0;
+    }
+}
