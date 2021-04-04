@@ -18,6 +18,8 @@
     background-color: #fefefe;
     border: 1px solid #888;
     border-radius: 5px;
+    text-align: center;
+    line-height: 1.3rem;
     padding: 1.3rem;
     margin: auto;
     max-width: 450px;
@@ -100,14 +102,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        content: "x";
-        font-size: 1.3rem;
         width: 2rem;
         height: 2rem;
         position: absolute;
         border-radius: 50%;
         background: rgb(214, 69, 69);
-        top: -18%;
+        top: -15px;
         right: 10px;
     }
 
@@ -120,8 +120,8 @@
 
         margin-top: 1rem;
 
-        div + div {
-            margin-top: 0.5rem;
+        span + span {
+            margin-top: 1rem;
         }
     }
 }
