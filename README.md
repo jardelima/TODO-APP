@@ -1,6 +1,8 @@
 # TODO-APP
 Uma simples to-do list feita com HTML, CSS e Vanilla JS.<br>
-Obs: Este é um projeto disponibilizado pelo <a href="https://www.frontendmentor.io/solutions">Frontend-Mentor</a> com modificações minhas.
+Obs: Este é um projeto disponibilizado pelo <a href="https://www.frontendmentor.io/solutions">Frontend-Mentor</a> com modificações minhas.<br>
+
+<img src="https://github.com/jardelima/TODO-APP/blob/master/images/Layout%20Mobile.PNG" height="400px"/> <img src="https://github.com/jardelima/TODO-APP/blob/master/images/Layout%20Mobile%202.PNG" height="400px"/> <img src="https://github.com/jardelima/TODO-APP/blob/master/images/Layout%20Mobile%20Light.PNG" height="400px"/>
 
 ### :books: ESTUDOS APLICADOS
 Aqui pude botar em prática o conceito mobile-first utilizando SASS.<br>
@@ -21,9 +23,11 @@ Como informado mais acima, o projeto utiliza o conceito mobile-first. Sendo assi
 - Filtrar entre "Todas Atividades", "Atividades Selecionadas" e "Atividades Completadas".
 
 ### :bulb: MINHAS ALTERAÇÕES
-Modal para verificar se o usuário quer mesmo excluir todas as atividades:
+Modal para verificar se o usuário quer mesmo excluir todas as atividades:<br>
+<img src="https://github.com/jardelima/TODO-APP/blob/master/images/Modal%20Clear%20Completed.PNG" />
 
-Modal para mostrar todas as atividades completadas pelo usuário:
+Modal para mostrar todas as atividades completadas pelo usuário:<br>
+<img src="https://github.com/jardelima/TODO-APP/blob/master/images/Modal%20Completed.PNG"/>
 
 ### :wrench: FERRAMENTAS UTILIZADAS
 - HTML
