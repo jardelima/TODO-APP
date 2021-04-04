@@ -20,7 +20,6 @@ export default function initAddTodo() {
     containerTodo.addEventListener("change", removeTodo);
     completed.addEventListener("click", activesCompleted);
 
-
     function addTodo() {
         //ADD TO-DO
         if (inputTodo.value !== "") {
@@ -59,11 +58,11 @@ export default function initAddTodo() {
                     contItems = 0;
                     amount.innerText = contItems;
                     modal.style.display = "none";
-                })
+                });
 
                 btnNo.addEventListener("click", () => {
                     modal.style.display = "none";
-                })
+                });
             });
 
             //OPTIONS FILTER
@@ -76,8 +75,6 @@ export default function initAddTodo() {
             all.addEventListener("click", () => {
                 divContainer.style.display = "flex";
             });
-
-
 
         } else {
             alert("Add a value in input new to do!");
@@ -124,7 +121,6 @@ export default function initAddTodo() {
             containerActivitys.appendChild(activity);
         });
     }
-
 }
 //event.path[2] de acordo com a quantidade de divs no innerHTML na function addTodo,
 //caso altere a quantidade de divs, o índice também deve ser alterado.
