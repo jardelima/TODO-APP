@@ -8,6 +8,9 @@ Obs: Este é um projeto disponibilizado pelo <a href="https://www.frontendmentor
 Tive a oportunidade de colocar em prática o conceito mobile-first utilizando SASS.<br>
 Também tive a oportunidade de testar meus estudos com Vanilla JS e manipulação da DOM.
 
+### DEPLOY
+<a href="https://todo-app-jarbass.vercel.app/">Clique aqui<a> para ser redirecionado para aplicação e ver mais sobre ela.
+
 ### :iphone: RESPONSIVIDADE
 Como informado mais acima, o projeto utiliza o conceito mobile-first. Sendo assim, dividi os breakpoints em três partes:
 - Layout Desktop para telas acima de 900px.
