@@ -18,13 +18,13 @@ Como informado mais acima, o projeto utiliza o conceito mobile-first. Sendo assi
 - Layout Mobile para telas menores que 450px.
 
 ### :clipboard: FUNCIONALIDADES IMPLEMENTADAS
-- Alterar entre o modo claro e escuro.
-- Adicionar novas atividades.
-- Remover atividades.
-- Remover todas atividades.
-- Contador de atividades que estão na lista.
-- Filtrar entre "Todas Atividades", "Atividades Selecionadas" e "Atividades Completadas".
-- Verificar quais atividades já foram completadas.
+- [x] Alterar entre o modo claro e escuro.
+- [x] Adicionar novas atividades.
+- [x] Remover atividades.
+- [x] Remover todas atividades.
+- [x] Contador de atividades que estão na lista.
+- [x] Filtrar entre "Todas Atividades", "Atividades Selecionadas" e "Atividades Completadas".
+- [x] Verificar quais atividades já foram completadas.
 
 ### :bulb: MINHAS ALTERAÇÕES
 Modal para verificar se o usuário quer mesmo excluir todas as atividades:<br>
