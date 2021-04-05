@@ -37,7 +37,7 @@ Modal para mostrar todas as atividades completadas pelo usuário:<br>
 - VANILLA JS
 
 ### :repeat: CLONE ESTE REPOSITÓRIO
-` $ git clone https://github.com/jardelima/TODO-APP `
+` $ git clone https://github.com/jardelima/TODO-APP.git `
 
 ### :relaxed: Autor 
 <img src="https://github.com/jardelima.png" alt="Jardel Lima" width="70" height="70"/>
