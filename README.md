@@ -21,6 +21,7 @@ Como informado mais acima, o projeto utiliza o conceito mobile-first. Sendo assi
 - Remover todas atividades.
 - Contador de atividades que estão na lista.
 - Filtrar entre "Todas Atividades", "Atividades Selecionadas" e "Atividades Completadas".
+- Verificar quais atividades já foram completadas.
 
 ### :bulb: MINHAS ALTERAÇÕES
 Modal para verificar se o usuário quer mesmo excluir todas as atividades:<br>
