@@ -5,7 +5,7 @@ Obs: Este é um projeto disponibilizado pelo <a href="https://www.frontendmentor
 <img src="https://github.com/jardelima/TODO-APP/blob/master/images/Layout%20Mobile.PNG" height="400px"/> <img src="https://github.com/jardelima/TODO-APP/blob/master/images/Layout%20Mobile%202.PNG" height="400px"/> <img src="https://github.com/jardelima/TODO-APP/blob/master/images/Layout%20Mobile%20Light.PNG" height="400px"/>
 
 ### :books: ESTUDOS APLICADOS
-Aqui pude botar em prática o conceito mobile-first utilizando SASS.<br>
+Tive a oportunidade de colocar em prática o conceito mobile-first utilizando SASS.<br>
 Também tive a oportunidade de testar meus estudos com Vanilla JS e manipulação da DOM.
 
 ### :iphone: RESPONSIVIDADE
